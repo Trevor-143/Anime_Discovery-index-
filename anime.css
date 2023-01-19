@@ -139,3 +139,32 @@ footer p {
     color: rgb(185, 185, 185);
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 500px) {
+    main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    main form input {
+        width: 200px;
+
+    }
+
+    main form button {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    main h1 {
+        font-size: 30px;
+    }
+    main form input {
+        width: 150px;
+
+    }
+
+    main form button {
+        width: 60px;
+    }
+}
